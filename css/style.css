@@ -214,8 +214,8 @@ background-color: antiquewhite;}
 #row_two_column_one{
     box-sizing: border-box;
     margin:0;
-    padding-left:30px;
-    padding-right:10px;
+    padding-left:40px;
+    padding-right:40px;
     float:left;
     width:calc(100%/3);
     height: 100%;
@@ -225,7 +225,7 @@ background-color: antiquewhite;}
     padding: .5rem;
 }
 .header_section_two{
-        color: black;
+        color: #000000;
         text-decoration: none;
 }
 .header_section_two:hover{

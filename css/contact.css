@@ -2,10 +2,11 @@ html, body{
         margin:0 auto;
         padding: 0;
         font-size: 62.5%;
-        width: 100%;
+        width:100%;
         height: auto;
      
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -24,12 +25,15 @@ header{
     overflow: hidden;
     background-color: #728ba8;
 }
+
 .logo{
+    
     width: 75%;
     display: block;
     margin: 0 auto;
     padding: 0;
 }
+
 .top{
     width: 100%;
     height: auto;
@@ -140,7 +144,7 @@ li{
 }
 .contact{
     width: calc(90%/3);
-    font-size: 13px;
+    font-size: 14px;
     height: 190px;
     float: left;
     padding-left: 2rem;
@@ -189,6 +193,7 @@ background-color: antiquewhite;}
     
 */
 
+
 .section_two{
     box-sizing: border-box;
     margin:0 auto;
@@ -200,10 +205,9 @@ background-color: antiquewhite;}
     text-align: left;
     background-color: #ffffff;
     font-family: sans-serif;
-    letter-spacing: .1rem;
+    letter-spacing: .1rem; 
     border-radius: 2rem;
-    box-shadow: -.2rem .2rem #75716d;
-    
+   box-shadow: -.2rem .2rem #75716d;
     
 }
 
@@ -217,10 +221,12 @@ background-color: antiquewhite;}
     height: 100%;
     
 }
+.sec_two_col_one{
+    padding: .5rem;
+}
 .header_section_two{
-        color: black;
+        color: #000000;
         text-decoration: none;
-        
 }
 .header_section_two:hover{
         color:#5397b4;
@@ -231,6 +237,10 @@ background-color: antiquewhite;}
 }
 .content_sec_two:hover{
     text-decoration: underline;
+}
+h3{
+    padding: 0;
+    margin: 0;
 }
 #row_two_column_two{
     box-sizing: border-box;
