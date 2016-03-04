@@ -165,17 +165,18 @@ p{
 .content:hover{
     text-decoration: underline;
 }
-#box1{
+.box1{
     margin: 0;
     padding: 0;
     width: calc(100%/3);
-    height:;
+    height: auto;
     float: left;
-    background-color: antiquewhite
-
+    background-color: #FFFFFF;
+    transform: translateX(100%);
+    
 }
 
-#box2{
+.box2{
     margin: 0;
     padding: 0;
     width:calc(100%/3);
@@ -183,7 +184,7 @@ p{
     float: left;
     background-color: antiquewhite
 }
-#box3{
+.box3{
     margin: 0;
     padding: 0;
     width: calc(100%/3);
@@ -192,3 +193,7 @@ p{
     background-color: antiquewhite;
 }
     
+.box1 > ul > li > a{
+    color: #000000;
+    
+}
